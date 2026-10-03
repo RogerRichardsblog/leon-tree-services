@@ -25,12 +25,10 @@ h2{font-size:clamp(40px,10.6vw,96px)}
 section{padding:88px 0}
 
 .top{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px var(--pad);padding-top:max(10px,env(safe-area-inset-top));background:rgba(241,236,226,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.mark{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 21px/1 var(--display);letter-spacing:-.02em;color:var(--pine)}
-.mark em{font-style:normal;font-weight:600;color:var(--bark)}
-.mark-rings{width:34px;height:34px;fill:none;stroke:var(--pine);stroke-width:2.2}
-.mark-rings circle:last-child{fill:var(--orange);stroke:none}
+.mark{display:flex;align-items:center;text-decoration:none}
+.mark img{height:40px;width:auto}
+.foot-logo{height:52px;width:auto;margin-bottom:6px}
 .top-nav{display:none}
-.mark span{white-space:nowrap}
 .tc-long{display:none}
 @media (min-width:420px){.tc-short{display:none}.tc-long{display:inline}}
 .top-call{font:700 15px var(--body);text-decoration:none;background:var(--pine);color:#fff;padding:0 16px;min-height:44px;display:flex;align-items:center;border-radius:999px;transition:background .25s,transform .25s var(--ease)}
